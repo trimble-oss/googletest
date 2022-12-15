@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxproj", "{A9F9E35A-7440-4405-8097-E886BC879AD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest-main", "gtest-main\gtest-main.vcxproj", "{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D791F55B-002F-4ACE-B0F0-0DBE676D263F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trimble-technology", "trimble-technology", "{AEA4008A-E7C4-455B-A137-CE9C10FDD34A}"
+	ProjectSection(SolutionItems) = preProject
+		BuildLocalNuget.bat = BuildLocalNuget.bat
+		GTest-Main-v142.targets = GTest-Main-v142.targets
+		GTest-Main-v142.nuspec = GTest-Main-v142.nuspec
+		ver.txt = ver.txt
+		GTest-v142.nuspec = GTest-v142.nuspec
+		GTest-v142.targets = GTest-v142.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x64.ActiveCfg = DebugCRT|x64
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x64.Build.0 = DebugCRT|x64
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x86.ActiveCfg = DebugCRT|Win32
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x86.Build.0 = DebugCRT|Win32
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x64.ActiveCfg = Release|x64
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x64.Build.0 = Release|x64
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x86.ActiveCfg = Release|Win32
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x86.Build.0 = Release|Win32
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x64.ActiveCfg = DebugCRT|x64
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x64.Build.0 = DebugCRT|x64
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x86.ActiveCfg = DebugCRT|Win32
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x86.Build.0 = DebugCRT|Win32
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x64.ActiveCfg = Release|x64
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x64.Build.0 = Release|x64
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x86.ActiveCfg = Release|Win32
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEA4008A-E7C4-455B-A137-CE9C10FDD34A} = {D791F55B-002F-4ACE-B0F0-0DBE676D263F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE204BB-029D-4F04-B775-B22F65198417}
+	EndGlobalSection
+EndGlobal

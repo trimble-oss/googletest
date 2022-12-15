@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>GTest-v142</id>
+    <version>0.0.0-localbuild</version>
+    <authors>Google Inc.</authors>
+    <owners></owners>
+    <projectUrl>https://github.com/trimble-oss/googletest</projectUrl>
+    <license type="expression">BSD-3-Clause</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The google test library (x64, v142, Release/DebugCRT).</description>
+    <copyright>Copyright 2008, Google Inc.</copyright>
+    <title>GTest-v142</title>
+    <tags>GTest  native  v142</tags>
+  </metadata>
+  <files>
+    <file src="GTest-v142.targets" target="\build\native\GTest-v142.targets" />
+
+	<file src="..\googletest\include\**\*" target="\build\native\include\" />
+
+	  <file src="x64\Release\gtest.lib" target="\build\native\lib\x64\gtest.lib" />
+	  <file src="x64\DebugCRT\gtest.lib" target="\build\native\lib\x64\DebugCRT\gtest.lib" />
+
+  </files>
+</package>

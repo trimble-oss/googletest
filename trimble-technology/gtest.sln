@@ -15,37 +15,27 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trimble-technology", "trimble-technology", "{AEA4008A-E7C4-455B-A137-CE9C10FDD34A}"
 	ProjectSection(SolutionItems) = preProject
 		BuildLocalNuget.bat = BuildLocalNuget.bat
-		GTest-Main-v142.targets = GTest-Main-v142.targets
 		GTest-Main-v142.nuspec = GTest-Main-v142.nuspec
-		ver.txt = ver.txt
+		GTest-Main-v142.targets = GTest-Main-v142.targets
 		GTest-v142.nuspec = GTest-v142.nuspec
 		GTest-v142.targets = GTest-v142.targets
+		ver.txt = ver.txt
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
+		DebugCRT|x64 = DebugCRT|x64
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x64.ActiveCfg = DebugCRT|x64
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x64.Build.0 = DebugCRT|x64
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x86.ActiveCfg = DebugCRT|Win32
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Debug|x86.Build.0 = DebugCRT|Win32
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.DebugCRT|x64.ActiveCfg = DebugCRT|x64
+		{A9F9E35A-7440-4405-8097-E886BC879AD7}.DebugCRT|x64.Build.0 = DebugCRT|x64
 		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x64.ActiveCfg = Release|x64
 		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x64.Build.0 = Release|x64
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x86.ActiveCfg = Release|Win32
-		{A9F9E35A-7440-4405-8097-E886BC879AD7}.Release|x86.Build.0 = Release|Win32
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x64.ActiveCfg = DebugCRT|x64
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x64.Build.0 = DebugCRT|x64
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x86.ActiveCfg = DebugCRT|Win32
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Debug|x86.Build.0 = DebugCRT|Win32
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.DebugCRT|x64.ActiveCfg = DebugCRT|x64
+		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.DebugCRT|x64.Build.0 = DebugCRT|x64
 		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x64.ActiveCfg = Release|x64
 		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x64.Build.0 = Release|x64
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x86.ActiveCfg = Release|Win32
-		{FC649F09-FD80-4DD0-9D8E-ABCD1420E84E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

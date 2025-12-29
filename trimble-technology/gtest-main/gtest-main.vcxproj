@@ -131,6 +131,7 @@
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <FunctionLevelLinking>false</FunctionLevelLinking>
       <AdditionalIncludeDirectories>$(SolutionDir)..\googletest\include;$(SolutionDir)..\googletest</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -150,6 +151,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <AdditionalIncludeDirectories>$(SolutionDir)..\googletest\include;$(SolutionDir)..\googletest</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
